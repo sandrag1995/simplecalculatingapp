@@ -3,7 +3,7 @@ import  "./components/NumberCard";
 import NumberCard from "./components/NumberCard";
 import React, {useState} from "react"
 
-function task9() {
+function App() {
 
     const [defaultNumber, setNumber] = useState(0)
 
@@ -34,4 +34,4 @@ function task9() {
 
 }
 
-export default task9;
+export default App;
